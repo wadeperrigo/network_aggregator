@@ -1,0 +1,25 @@
+{
+  "name": "Network Agreggator / Map",
+  "version": "0.0.1",
+  "description": "An attempt to map out using API's of Dell and Arista switches using LLDP neighbors and mac address tables to IP, assumes all passwords need to be the same.",
+  "dependencies": {
+    "ssh2": "^0.8.8",
+    "nutanix_prism": "^1.0.18",
+    "mysql": "^2.18.0"
+  },
+  "main": "launch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Arista",
+    "Dell",
+    "Networking",
+    "Aggregation",
+    "Aggregator",
+    "Network",
+    "Mapping"
+  ],
+  "author": "wade.perrigo@gmail.com",
+  "license": "ISC"
+}

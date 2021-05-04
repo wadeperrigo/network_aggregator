@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>HPOC Network</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/css/d3.css">
+    </head>
+    <body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.3.10/d3.min.js"></script>
+        <script src="/js/tree.js"></script>
+        <script>
+            var switchNum = 0;
+            function loadSwitch(switchNumber) {
+                switchNum = switchNumber;
+                d3.json('switch' + switchNumber + '.json', function(err, swData) {
+                    if(err) { console.log(err) }
+                    else { renderLinearD3(swData) }
+                })
+            }
+        </script>
+        <button onclick="loadSwitch(0)">Core Switch 1</button>
+        <button onclick="loadSwitch(1)">Core Switch 2</button>
+    </body>
+</html>

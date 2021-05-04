@@ -1,0 +1,41 @@
+{
+    "10.21.3.11": {
+        "username": "UserName",
+        "password": "UserPass",
+        "switchType": "arista"
+    },
+    "10.20.0.18": {
+        "name": "sv2-r104-sw1-poc-10g",
+        "username": "UserName",
+        "password": "UserPass",
+        "switchType": "arista"
+    },
+    "10.20.0.197": {
+        "username": "UserName",
+        "password": "UserPass",
+        "switchType": "arista"
+    },
+    "10.21.3.2": {
+        "name": "SV2-POC-CORE-SW1",
+        "username": "UserName",
+        "password": "UserPass",
+        "switchType": "arista"
+    },
+    "10.21.3.3": {
+        "name": "SV2-POC-CORE-SW2",
+        "username": "UserName",
+        "password": "UserPass",
+        "switchType": "arista"
+    },
+    "10.20.0.3": {
+        "username": "UserName",
+        "password": "UserPass",
+        "switchType": "arista"
+    },
+    "10.21.254.108": {
+        "name": "SV2-R110-SW4-POC1G",
+        "username": "UserName",
+        "password": "UserPass",
+        "switchType": "dell"
+    }
+}
