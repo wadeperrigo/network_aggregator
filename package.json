@@ -1,5 +1,5 @@
 {
-  "name": "Network Agreggator / Map",
+  "name": "network_agreggator",
   "version": "0.0.1",
   "description": "An attempt to map out using API's of Dell and Arista switches using LLDP neighbors and mac address tables to IP, assumes all passwords need to be the same.",
   "dependencies": {
